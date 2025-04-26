@@ -1,0 +1,20 @@
+   37  cd
+   38  mkdir -p git_intro
+   39  cd git_intro
+   40  echo "# git_intro" >> README.md
+   41  git init
+   42  git branch -M main
+   43  git status
+   44  git add .
+   45  git status
+   46  git commit -m "first commit"
+   47  git remote add origin git@github.com:IrynaLebedeva/git_intro.git
+   48  git remote -v
+   49  git push -u origin main
+   50  git status
+   51  git add .
+   52  git commit -m "add bild"
+   53  git push
+   54  history
+   55  history | tail -20
+   56  history | tail -20 >hystory8.txt
